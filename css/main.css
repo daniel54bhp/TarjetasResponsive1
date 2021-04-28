@@ -1,0 +1,161 @@
+
+html {
+  font-size: 15px;
+}
+*{
+  padding:0;
+}
+body {
+  font-size: 1em;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  color: #F2F2F2;
+  background-color: #F2F2F2;
+}
+
+.card-container {
+  margin: 100px 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+section .content-container {
+  width: 75%;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+p {
+  line-height: 1.8em;
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: .9em;
+  color: rgba(255, 255, 255, .75);
+}
+
+a {
+  text-decoration: none;
+  background-color: #F2F2F2;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: .9em;
+}
+
+.sedan {
+  background-color: #E38826;
+}
+
+.sedan a {
+  color: #E38826;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.suv a {
+  color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.luxury a {
+  color: #004241;
+}
+
+.attribution {
+  color: #004241;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap;
+  width: 100%;
+}
+
+.attribution a {
+  padding: 0 5px;
+}
+
+a:hover {
+  background: transparent;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+}
+@media only screen and (min-width: 768px) {
+
+    .card-container {
+      width: 75%;
+    }
+
+    section .content-container {
+      width: 65%;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.9em;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .card-container {
+    width: 80%;
+  }
+
+  section {
+    width: 33.3%;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .card-container {
+      margin: 140px 0;
+      width: 65%;
+    }
+
+    section .content-container {
+      width: 70%;
+    }
+
+    h2 {
+      font-size: 2.75em;
+    }
+
+    p {
+      margin-bottom: 80px;
+    }
+
+    a {
+      font-size: 1em;
+      padding: 12px 25px;
+    }
+
+}
